@@ -27,7 +27,7 @@ export const HeadlineSection = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Box w={{lg:"40%",md:"60%"}} h={{lg:"35rem",md:"40rem"}} display="flex">
+          <Box w={{lg:"50%",md:"60%"}} h={{lg:"35rem",md:"40rem"}} pl="4rem" display="flex">
             <Image src="/images/Image placeholder.png" />
             <Box
               w={{lg:"60%",md:"100%"}}
@@ -89,7 +89,7 @@ export const HeadlineSection = () => {
         <>
           <Box
             w="100%"
-            h="70rem"
+            h="67rem"
             display="flex"
             alignItems="center"
             flexDirection="column"

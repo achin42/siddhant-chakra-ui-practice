@@ -106,6 +106,7 @@ export const Hero = () => {
               fontWeight={"normal"}
               fontFamily={"Heading"}
               lineHeight="65px"
+              mt="8rem"
             >
               Start to
             </Text>
@@ -148,7 +149,6 @@ export const Hero = () => {
               alignItems="center"
               borderRadius="10.5px"
               mt="3rem"
-             
             >
               Get Started
             </Box>

@@ -93,7 +93,9 @@ export const Classes = () => {
             fontWeight:'normal',
             fontSize:'25.74px',
             lineHeight:'32.18px',
-            textAlign:'center'
+            ml:'9rem',
+            fontStyle:'normal',
+            color:'#2d2d2d'
         } 
     })
 
@@ -113,11 +115,12 @@ export const Classes = () => {
 
     const SimpleMobileText = chakra('div',{
         baseStyle:{  
-            fontFamily:'Loto',
-            fontWeight:'normal',
+            fontFamily:'Lato',
+            fontWeight:'medium',
             fontSize:'14px',
             lineHeight:'24px',
-            pl:'10rem',
+            pl:'9.2rem',
+            color:'#3B3B3B'
         } 
     });
 
@@ -133,7 +136,7 @@ export const Classes = () => {
 
     const LearnMoreText = chakra('div',{
         baseStyle:{  
-            fontFamily:'Loto',
+            fontFamily:'Lato',
             fontWeight:'medium',
             fontSize:'15.67px',
             lineHeight:'23.11px',
@@ -144,12 +147,13 @@ export const Classes = () => {
 
     const LearnMoreMobileText = chakra('div',{
         baseStyle:{  
-            fontFamily:'Loto',
+            fontFamily:'Lato',
             fontWeight:'medium',
             fontSize:'15.67px',
             lineHeight:'23.11px',
-            pl:'10rem',
-            pt:'2rem'
+            pl:'9rem',
+            pt:'2rem',
+            color:'#2D2D2D'
         }
     })
 
@@ -161,10 +165,11 @@ export const Classes = () => {
              <Section>
                  <TextWrapper >
                       <HeadlineText>Try new classes</HeadlineText>
-                      
+                     
                       <SimpleText>This is a template Figma file,</SimpleText>
                       <SimpleText>turned into code using Anima.</SimpleText>
                       <SimpleText>Learn more at AnimaApp.com</SimpleText>
+                     
                       <LearnMoreText>Learn More</LearnMoreText>
                       <Image ml='11.3rem' src="/images/Download cta.png" />
                  </TextWrapper>
@@ -180,12 +185,12 @@ export const Classes = () => {
                 <SectionMobile>
                   <TextMobileWrapper >
                       <HeadlineMobileText>Try new classes</HeadlineMobileText>
-                      
+                      <Box pt="4rem"></Box>
                       <SimpleMobileText>This is a template Figma file,</SimpleMobileText>
                       <SimpleMobileText>turned into code using Anima.</SimpleMobileText>
                       <SimpleMobileText>Learn more at AnimaApp.com</SimpleMobileText>
                       <LearnMoreMobileText>Learn More</LearnMoreMobileText>
-                      <Image ml="8rem"  src="/images/Download cta.png" />
+                      <Image ml="7.3rem"  src="/images/Download cta.png" />
                      
                        <Image  src="./images/iPhone 13.png"/>
                      

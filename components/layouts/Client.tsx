@@ -29,7 +29,7 @@ export const Client = () => {
   const ContentMobileWrapper = chakra("div", {
     baseStyle: {
       w: "100%",
-      h: "90rem",
+      h: "120rem",
       display: "flex",
       alignItems: "center",
       flexDirection: "column",
@@ -66,8 +66,8 @@ export const Client = () => {
 
   const CardMobile = chakra("div", {
     baseStyle: {
-      w: "80%",
-      h: "25rem",
+      w: "315px",
+      h: "372px",
       bg: "brand.cyan",
       mt:"2rem"
     },
@@ -85,6 +85,17 @@ export const Client = () => {
       fontSize: "20.15px",
     }
   });
+
+
+  const CardMobileText = chakra("div",{
+    baseStyle: {
+      w: "70%",
+      fontSize: "20.15px",
+      fontWeight: "bold",
+      mt:"3rem",
+      ml:"4rem"
+    }
+  })
 
   const CardProfile = chakra("div", {
     baseStyle: {
@@ -149,32 +160,32 @@ export const Client = () => {
           <ContentMobileWrapper>
             <TextDiv>Clients</TextDiv>
             <CardMobile>
-              <CardText>
+              <CardMobileText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
-              </CardText>
+              </CardMobileText>
               <CardMobileProfile>
-                <Image src="./images/Client comment.png" />
+                <Image src="./images/girlCommentmobile.png" />
               </CardMobileProfile>
             </CardMobile>
 
             <CardMobile>
-              <CardText>
+              <CardMobileText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
-              </CardText>
+              </CardMobileText>
               <CardMobileProfile>
-                <Image src="./images/Client comment Two.png" />
+                <Image src="./images/mencommentmobile.png" />
               </CardMobileProfile>
             </CardMobile>
 
             <CardMobile>
-              <CardText>
+              <CardMobileText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
-              </CardText>
+              </CardMobileText>
               <CardMobileProfile>
-                <Image src="./images/Client comment Three.png" />
+                <Image src="./images/girlCommentmob.png" />
               </CardMobileProfile>
             </CardMobile>
           </ContentMobileWrapper>
